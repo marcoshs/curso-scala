@@ -6,13 +6,12 @@ object MeusOperadores {
 
 class MyInt(l: Int) {
   import MeusOperadores._
-  def ++(r: Double) = l + r + 1.0
-  def ++(r: Int) = l + r + 1.0
+  def ++(r: Double) = l + r + 1
+  def ++(r: Int) = l + r + 1
 }
 
 object Aula2 extends App  {
   import MeusOperadores._
   println( 2 ++ 4)
 }
-
 
