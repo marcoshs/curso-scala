@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>la.aquare</groupId>
-	<artifactId>aula1</artifactId>
+	<artifactId>aula3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>aula1</name>
@@ -14,6 +14,16 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.github.nscala-time</groupId>
+			<artifactId>nscala-time_2.11</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.storm-enroute</groupId>
+			<artifactId>scalameter_2.11</artifactId>
+			<version>0.6</version>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
