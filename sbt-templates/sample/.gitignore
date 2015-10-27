@@ -1,0 +1,11 @@
+.DS_Store
+bin
+logs
+target
+.metadata
+jrebel.lic
+.settings
+.classpath
+.project
+.cache*
+.lib
